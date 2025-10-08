@@ -14,6 +14,7 @@
 	<a href="/welcome">Welcome</a>
 	<a href="/past">Past Sessions</a>
 	<a href="/start">Start Practice Session</a>
+	<a href="/graph">Data and Graph</a>
 </nav>
 {@render children?.()}
 

@@ -58,6 +58,10 @@
 		<br />
 		<br />
 	</div>
+	<div class="menu">
+		<div class="ICON"></div>
+		<div class="subtext">start new practice session</div>
+	</div>
 </div>
 
 <style>
