@@ -11,6 +11,7 @@
 
 <nav>
 	<a href="/">Home</a>
+	<a href="/welcome">Welcome</a>
 	<a href="/past">Past Sessions</a>
 </nav>
 {@render children?.()}
