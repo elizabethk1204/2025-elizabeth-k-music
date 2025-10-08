@@ -11,7 +11,7 @@
 
 <nav>
 	<a href="/">Home</a>
-	<a href="/about">About</a>
+	<a href="/past">Past Sessions</a>
 </nav>
 {@render children?.()}
 

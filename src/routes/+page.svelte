@@ -1,3 +1,3 @@
 <div class="text-red-500">hello</div>
 
-<a href="/about">about page</a>
+<a href="/past">past sessions page</a>
