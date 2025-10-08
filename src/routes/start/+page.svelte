@@ -1,9 +1,4 @@
 <div class="background">
-	<div class="menu">
-		<div class="ICON"></div>
-		<div class="subtext">welcome</div>
-	</div>
-
 	<br />
 	<br />
 	<br />
@@ -15,11 +10,6 @@
 		<div class="timer">
 			<div class="title">0:00</div>
 		</div>
-	</div>
-
-	<div class="menu">
-		<div class="ICON"></div>
-		<div class="subtext">past sessions</div>
 	</div>
 </div>
 
@@ -118,8 +108,6 @@
 		background-position: bottom;
 		margin: 10px;
 		padding: 5px;
-	}
-	.heart {
 	}
 
 	.menu {

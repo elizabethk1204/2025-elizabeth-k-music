@@ -1,9 +1,4 @@
 <div class="background">
-	<div class="menu">
-		<div class="ICON"></div>
-		<div class="subtext">welcome</div>
-	</div>
-
 	<br />
 	<br />
 	<br />
@@ -62,11 +57,6 @@
 		</div>
 		<br />
 		<br />
-	</div>
-
-	<div class="menu">
-		<div class="ICON"></div>
-		<div class="subtext">start new practice session</div>
 	</div>
 </div>
 
@@ -222,7 +212,7 @@
 	}
 	.background {
 		background-color: lightpink;
-		height: 110vh;
+		height: 100vh;
 		width: 100vw;
 
 		background-size: cover;
