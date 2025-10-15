@@ -13,6 +13,10 @@
 		<div class="ICON"></div>
 		<div class="subtext">start new practice session</div>
 	</div>
+
+	<nav>
+		<a href="/">Home</a>
+	</nav>
 </div>
 
 <style>
@@ -99,7 +103,7 @@
 	}
 	.background {
 		background-color: lightpink;
-		height: 120vh;
+		height: 107vh;
 		width: 100vw;
 
 		background-size: cover;
