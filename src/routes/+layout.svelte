@@ -16,6 +16,7 @@
 	<a href="/start">Start Practice Session</a>
 	<a href="/graph">Data and Graph</a>
 	<a href="enlargedOnePast">Single Past Session</a>
+	<a href="inSession">In Session</a>
 </nav>
 
 {@render children?.()}

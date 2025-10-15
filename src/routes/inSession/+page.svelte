@@ -2,13 +2,13 @@
 	<br />
 	<br />
 	<br />
-	<div class="title">start practice session:</div>
+	<div class="title">practice session in progress</div>
+	<div class="bodytext"></div>
 	<br />
 	<div class="smalltext">goal for today:</div>
 	<br />
 	<div class="content">
-		<textarea placeholder="goal for today- any rep, tempo, or specific skill to focus on?"
-		></textarea>
+		<div class="bodytext">the actual goal, typed out so you remember</div>
 		<div class="start">
 			<div class="play"></div>
 		</div>
@@ -38,6 +38,15 @@
 		color: white;
 		text-align: center;
 		margin: 5px;
+	}
+
+	.bodytext {
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		margin: 5px;
+		margin-left: 100px;
+		margin-right: 100px;
 	}
 
 	.content {
@@ -78,7 +87,7 @@
 	}
 	.background {
 		background-color: lightpink;
-		height: 100vh;
+		height: 110vh;
 		width: 100vw;
 
 		background-size: cover;
@@ -125,6 +134,8 @@
 		background-position: bottom;
 		margin: 10px;
 		padding: 5px;
+	}
+	.heart {
 	}
 
 	.menu {
