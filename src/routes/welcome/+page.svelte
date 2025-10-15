@@ -13,7 +13,8 @@
 	</div>
 	<div class="bodytext">
 		your answer can be changed after this step, so don't worry. at any time you wish, you can look
-		back at your passion. simply click on the heart icon next to the welcome menu.
+		back at your passion to be reminded again of your love for music. simply click on the heart icon
+		next to the welcome menu.
 	</div>
 </div>
 

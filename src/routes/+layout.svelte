@@ -17,6 +17,7 @@
 	<a href="/graph">Data and Graph</a>
 	<a href="enlargedOnePast">Single Past Session</a>
 	<a href="inSession">In Session</a>
+	<a href="endSession">End Session</a>
 </nav>
 
 {@render children?.()}

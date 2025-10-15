@@ -1,18 +1,24 @@
 <div class="background">
+	<div class="menu">
+		<div class="ICON"></div>
+		<div class="subtext">welcome</div>
+	</div>
+
 	<br />
 	<br />
 	<br />
-	<div class="title">practice session in progress</div>
+	<div class="title">practice session ended.</div>
 	<div class="bodytext"></div>
 	<br />
 	<div class="smalltext">goal for today:</div>
+	<div class="bodytext">the actual goal, typed out so you remember</div>
 	<br />
 	<div class="content">
-		<div class="bodytext">the actual goal, typed out so you remember</div>
-		<div class="start">
-			<div class="play"></div>
-		</div>
-
+		<div class="smalltext">notes</div>
+		<textarea placeholder="notes, observations, analysis for tomorrow's musician?'"></textarea>
+		<br />
+		<br />
+		<div class="smalltext">practice session length:</div>
 		<div class="timer">
 			<div class="title">0:00</div>
 		</div>
@@ -87,7 +93,7 @@
 	}
 	.background {
 		background-color: lightpink;
-		height: 100vh;
+		height: 110vh;
 		width: 100vw;
 
 		background-size: cover;
