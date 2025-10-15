@@ -26,12 +26,13 @@
 	}
 
 	.graph {
-		height: 400px;
-		width: 600px;
+		height: 60vh;
+		width: 80vw;
 		background-color: white;
 		margin-left: 30px;
 		margin-bottom: 30px;
 	}
+
 	.dataset {
 		height: 30px;
 		width: 120px;
@@ -44,19 +45,6 @@
 		color: lightcoral;
 		border-radius: 10px;
 	}
-	.variable {
-		background-color: lemonchiffon;
-		height: 50px;
-		width: 50px;
-		font-size: 24px;
-		font-style: italic;
-		color: lightcoral;
-		align-items: center;
-		justify-items: center;
-		justify-content: center;
-		text-align: center;
-	}
-
 	.subtext {
 		font-size: 24px;
 		font-weight: bold;
@@ -96,14 +84,6 @@
 		justify-content: left;
 	}
 
-	.smalltext {
-		font-size: 24px;
-		font-weight: bold;
-		color: white;
-		text-align: center;
-		margin: 5px;
-	}
-
 	.bodytext {
 		font-size: 16px;
 		color: white;
@@ -119,7 +99,7 @@
 	}
 	.background {
 		background-color: lightpink;
-		height: 100vh;
+		height: 120vh;
 		width: 100vw;
 
 		background-size: cover;

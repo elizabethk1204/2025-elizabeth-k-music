@@ -193,14 +193,6 @@
 		justify-content: left;
 	}
 
-	.smalltext {
-		font-size: 24px;
-		font-weight: bold;
-		color: white;
-		text-align: center;
-		margin: 5px;
-	}
-
 	.bodytext {
 		font-size: 16px;
 		color: white;
@@ -208,11 +200,6 @@
 		margin: 5px;
 		margin-left: 100px;
 		margin-right: 100px;
-	}
-
-	body {
-		margin: 0;
-		padding: 0;
 	}
 	.background {
 		background-color: lightpink;
