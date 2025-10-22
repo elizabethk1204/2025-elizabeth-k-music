@@ -12,11 +12,6 @@
 </script>
 
 <div class="background">
-	<div class="menu">
-		<div class="ICON"></div>
-		<div class="subtext">welcome</div>
-	</div>
-
 	<br />
 	<br />
 	<div class="title">past sessions</div>
@@ -44,10 +39,9 @@
 	</div>
 </div>
 
-<div class="menu">
-	<div class="ICON"></div>
-	<div class="subtext">start new practice session</div>
-</div>
+<nav>
+	<a href="/start">start practice session</a>
+</nav>
 
 <style>
 	.title {
@@ -224,5 +218,34 @@
 
 		margin: 0px;
 		padding: 0px;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		height: 10vh;
+		width: 100vw;
+		background-color: lightcoral;
+		margin: 0px;
+		padding: 0px;
+
+		object-position: bottom;
+		background-attachment: fixed;
+		background-position: bottom;
+
+		align-items: center;
+		justify-items: center;
+		justify-content: left;
+	}
+
+	nav a {
+		font-size: 18px;
+		font-weight: bold;
+		color: lightpink;
+		text-align: left;
+		align-items: right;
+		justify-items: right;
+		margin: 5px;
 	}
 </style>
