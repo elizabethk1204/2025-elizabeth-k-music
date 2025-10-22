@@ -15,26 +15,28 @@
 	<br />
 	<br />
 	<div class="title">past sessions</div>
-	<div class="session">
-		<div class="date">
-			Date
-			<div class="variable">XX:XX</div>
-		</div>
-		<div class="goal">
-			Goal
-			<div class="variable">goal</div>
-		</div>
-		<div class="time">
-			Time
-			<div class="variable">XX:XX</div>
-		</div>
-		<div class="note">
-			Notes
-			<div class="variable">notes</div>
-		</div>
-		<div class="recordings">
-			Recordings
-			<div class="variable">recordings</div>
+	<div class="content">
+		<div class="session">
+			<div class="date">
+				Date
+				<div class="variable">XX:XX</div>
+			</div>
+			<div class="goal">
+				Goal
+				<div class="variable">goal</div>
+			</div>
+			<div class="time">
+				Time
+				<div class="variable">XX:XX</div>
+			</div>
+			<div class="note">
+				Notes
+				<div class="variable">notes</div>
+			</div>
+			<div class="recordings">
+				Recordings
+				<div class="variable">recordings</div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -52,7 +54,6 @@
 		margin: 0px;
 		padding: 0px;
 	}
-
 	.session {
 		height: 100px;
 		width: 600px;
@@ -126,7 +127,7 @@
 		background-color: white;
 		border: 1px solid lightcoral;
 		height: 200px;
-		width: 148px;
+		width: 149px;
 		color: lightcoral;
 		align-items: center;
 		justify-items: center;
@@ -218,34 +219,5 @@
 
 		margin: 0px;
 		padding: 0px;
-	}
-
-	nav {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		height: 10vh;
-		width: 100vw;
-		background-color: lightcoral;
-		margin: 0px;
-		padding: 0px;
-
-		object-position: bottom;
-		background-attachment: fixed;
-		background-position: bottom;
-
-		align-items: center;
-		justify-items: center;
-		justify-content: left;
-	}
-
-	nav a {
-		font-size: 18px;
-		font-weight: bold;
-		color: lightpink;
-		text-align: left;
-		align-items: right;
-		justify-items: right;
-		margin: 5px;
 	}
 </style>

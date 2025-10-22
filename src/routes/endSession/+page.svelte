@@ -21,7 +21,7 @@
 </div>
 
 <nav>
-	<a href="/past">past practice sessions</a>
+	<a href="/past">🏡</a>
 </nav>
 
 <style>
