@@ -1,3 +1,22 @@
+<script>
+	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
+	let goal = $state('');
+
+	onMount(() => {
+		let g = localStorage.getItem('goal');
+
+		if (g !== null) {
+			goal = g;
+		}
+	});
+
+	function endSession() {
+		goto('endSession');
+		localStorage.setItem('time', time);
+	}
+</script>
+
 <div class="background">
 	<br />
 	<br />
@@ -6,16 +25,16 @@
 	<div class="bodytext"></div>
 	<br />
 	<div class="smalltext">goal for today:</div>
-	<div class="bodytext">the actual goal, typed out so you remember</div>
+	<div class="bodytext">{goal}</div>
 	<br />
 	<div class="content">
 		<div class="smalltext">notes</div>
-		<textarea placeholder="notes, observations, analysis for tomorrow's musician?'"></textarea>
+		<textarea placeholder="notes, observations, analysis for tomorrow's musician?"></textarea>
 		<br />
 		<br />
 		<div class="smalltext">practice session length:</div>
 		<div class="timer">
-			<div class="title">0:00</div>
+			<div class="title">{time}</div>
 		</div>
 	</div>
 </div>

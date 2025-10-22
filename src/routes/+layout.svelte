@@ -11,7 +11,7 @@
 
 <nav>
 	<a href="/">Home</a>
-	<a href="/welcome">Welcome</a>
+	<a href="/passion">Welcome</a>
 	<a href="/past">Past Sessions</a>
 	<a href="/start">Start Practice Session</a>
 	<a href="/graph">Data and Graph</a>

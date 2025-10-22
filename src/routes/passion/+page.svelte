@@ -2,8 +2,8 @@
 	<br />
 	<br />
 	<br />
-	<div class="smalltext">hello, welcome to [name of app]</div>
-	<div class="title">why do <em>you</em> have a passion for music?</div>
+
+	<div class="title">[musician name] has a <em>passion</em> for music because?</div>
 	<br />
 	<br />
 	<div class="smalltext">
@@ -11,8 +11,7 @@
 		<textarea placeholder="type your name here"></textarea>
 	</div>
 	<div class="content">
-		<textarea placeholder="type here, or record by pressing the button next to this text box."
-		></textarea>
+		<div class="bodytext">your passion!</div>
 		<div class="record">
 			<div class="startrecording"></div>
 		</div>
@@ -40,7 +39,7 @@
 		align-items: center;
 		justify-items: center;
 		justify-content: center;
-		margin-top: -20px;
+		margin-top: -50px;
 
 		height: 70vh;
 		width: 100vw;
@@ -53,6 +52,7 @@
 		text-align: center;
 		margin: 5px;
 	}
+
 	.bodytext {
 		font-size: 16px;
 		color: white;
@@ -62,7 +62,7 @@
 		margin-right: 100px;
 	}
 
-	.body {
+	body {
 		margin: 0;
 		padding: 0;
 	}

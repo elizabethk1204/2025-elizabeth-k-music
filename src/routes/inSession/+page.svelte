@@ -2,6 +2,9 @@
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 
+	let time = $state('00:00');
+	let m = $state(0);
+	let s = $state(0);
 	let goal = $state('');
 
 	onMount(() => {
@@ -12,9 +15,32 @@
 		}
 	});
 
+	function tick() {
+		let temps = s;
+		let tempm = m;
+
+		if (temps >= 59) {
+			temps = 0;
+			tempm++;
+		} else {
+			temps++;
+		}
+		s = temps;
+		m = tempm;
+
+		temps = temps < 10 ? '0' + temps.toString() : temps.toString();
+		tempm = tempm < 10 ? '0' + tempm.toString() : tempm.toString();
+		time = tempm + ':' + temps;
+	}
+
 	function endSession() {
 		goto('endSession');
+		localStorage.setItem('time', time);
 	}
+
+	setInterval(() => {
+		tick();
+	}, 1000);
 </script>
 
 <div class="background">
@@ -33,7 +59,7 @@
 		</button>
 
 		<div class="timer">
-			<div class="title">0:00</div>
+			<div class="title">{time}</div>
 		</div>
 	</div>
 </div>
