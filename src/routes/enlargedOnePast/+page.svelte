@@ -162,7 +162,7 @@
 		align-items: center;
 		justify-items: center;
 		justify-content: center;
-		margin-top: 0px;
+		margin-top: -200px;
 
 		height: 100vh;
 		width: 100vw;
@@ -219,5 +219,34 @@
 
 		margin: 0px;
 		padding: 0px;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		height: 10vh;
+		width: 100vw;
+		background-color: lightcoral;
+		margin: 0px;
+		padding: 0px;
+
+		object-position: bottom;
+		background-attachment: fixed;
+		background-position: bottom;
+
+		align-items: center;
+		justify-items: center;
+		justify-content: left;
+	}
+
+	nav a {
+		font-size: 18px;
+		font-weight: bold;
+		color: lightpink;
+		text-align: left;
+		align-items: right;
+		justify-items: right;
+		margin: 5px;
 	}
 </style>

@@ -94,6 +94,7 @@
 		margin: 10px;
 		text-align: center;
 		color: lightcoral;
+		border-radius: 10px;
 	}
 	.variable {
 		background-color: lemonchiffon;
@@ -133,7 +134,7 @@
 		background-color: white;
 		border: 1px solid lightcoral;
 		height: 100px;
-		width: 148px;
+		width: 149px;
 		color: lightcoral;
 		align-items: center;
 		justify-items: center;

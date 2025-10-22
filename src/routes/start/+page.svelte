@@ -1,3 +1,14 @@
+<script>
+	import { goto } from '$app/navigation';
+
+	let goal = $state('');
+
+	function startSession() {
+		localStorage.setItem('goal', goal);
+		goto('inSession');
+	}
+</script>
+
 <div class="background">
 	<br />
 	<br />
@@ -7,11 +18,13 @@
 	<div class="smalltext">goal for today:</div>
 	<br />
 	<div class="content">
-		<textarea placeholder="goal for today- any rep, tempo, or specific skill to focus on?"
+		<textarea
+			bind:value={goal}
+			placeholder="goal for today- any rep, tempo, or specific skill to focus on?"
 		></textarea>
-		<div class="start">
+		<button class="start" onclick={startSession()}>
 			<div class="play"></div>
-		</div>
+		</button>
 
 		<div class="timer">
 			<div class="title">0:00</div>
